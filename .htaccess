@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule ^([a-z]+)$ index.php?pg=$1 [NC]
+RewriteRule ^([a-z]+)/([0-9])$ index.php?pg=$1&pagina=$2 [NC]
+RewriteRule ^login/?$ login.php [NC]

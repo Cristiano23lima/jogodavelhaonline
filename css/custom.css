@@ -1,0 +1,21 @@
+.active_form{
+	display: none;
+}
+.parsley-errors-list{
+	list-style: none;
+}
+.parsley-errors-list li{
+	color: red;
+	padding: 2px;
+}
+#msg-error-senha{
+	color: red;
+}
+/*#logo{
+	margin-top: 5%;
+}*/
+#logo img{
+	margin: 20px;
+	width: 100px;
+}
+

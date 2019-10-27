@@ -1,0 +1,65 @@
+body{
+	background-color: rgba(0,0,0,0.1);
+}
+/*formataçao do jogo*/
+#partida{
+	float: right;
+	position: absolute;
+	top: 25%;
+	right: 15%;
+	width: 400px;
+	height: 300px;
+	border: 1px solid rgba(0,0,0,0.5);
+}
+#partida div{
+	padding-left: 8px;
+}
+#tabuleiro{
+	float: left;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+}
+.linha div{
+	float: left;
+}
+.quad{
+	background: rgba(0,0,0,0.7);
+	border: 1px solid black;
+	width: 120px;
+	height: 120px;
+	color: #fff;
+	text-align: center;
+	font-size: 70px;
+	font-family: sans-serif;
+}
+
+/*MENU*/
+#menu{
+	margin-bottom: 3%;
+}
+.profile .image-profile{
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+
+}
+/*STATUS*/
+#msgError{
+	color: red;
+}
+.perfil{
+	width: 200px;
+	position: absolute;
+	border-radius: 50%;
+}
+#profile{
+	width: 250px;
+	position: relative;
+	height: 200px;
+}
+
+/*BOOTSTRAP*/
+.card-header{
+	background: rgba(0,0,0,0.4);
+}
